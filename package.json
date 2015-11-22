@@ -1,0 +1,33 @@
+{
+  "name": "es6-ui-base",
+  "version": "1.0.0",
+  "description": "Base application for an ui application that uses es6(7)",
+  "main": "index.js",
+  "scripts": {
+    "build": "./bin/bundle.js",
+    "bundle": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbernardy/es6-ui-base.git"
+  },
+  "author": "Max Bernardy <max.bernardy@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mbernardy/es6-ui-base/issues"
+  },
+  "homepage": "https://github.com/mbernardy/es6-ui-base#readme",
+  "devDependencies": {
+    "eslint": "^1.9.0",
+    "eslint-config-airbnb": "^1.0.0"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-stage-0": "^6.1.18",
+    "babelify": "^7.2.0",
+    "browserify": "^12.0.1",
+    "jquery": "^2.1.4"
+  }
+}
